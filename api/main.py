@@ -2,6 +2,19 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
+@app.get("/")
+async def Root():
+  return """
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title></title>
+	<meta charset="utf-8" />
+</head>
+<body onload="window.location.href ='docs';">
+</body>
+<html>
+"""
+
 @app.get("/api/ScrapyMonotaro")
 async def ScrapyMonotaro(target_url: str = None):
   try:
