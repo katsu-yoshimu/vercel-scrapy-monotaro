@@ -12,6 +12,8 @@ Monotaroの商品詳細ページをスクレーピングするためのWebAPIで
 
 ## Installation
 
+前提：ローカルPCに**git**、**ptyhon3.xx**がインストール済
+
 1. **ローカルPCにリポジトリのクーロン作成:**
 
    ```cmd
