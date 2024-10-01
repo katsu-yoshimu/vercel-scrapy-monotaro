@@ -1,5 +1,5 @@
 # FastAPI Project
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FTomoyaKuroda%2FVercel-FastAPI)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkatsu-yoshimu%2Fvercel-fastapi)
 
 
 This is a FastAPI project designed to be lightweight using FastAPI-Slim and ready for deployment on Vercel. It includes instructions for running the project locally using FastAPI-CLI.
@@ -14,19 +14,19 @@ This is a FastAPI project designed to be lightweight using FastAPI-Slim and read
 
 1. **Clone the repository:**
 
-   ```bash
-   git clone hhttps://github.com/TomoyaKuroda/Vercel-FastAPI.git
-   cd Vercel-FastAPI
+   ```cmd
+   git clone https://github.com/katsu-yoshimu/vercel-fastapi.git
+   cd vercel-fastapi
 	 ```
 
 2. **Create and activate a virtual environment:**
 
-	```bash
+	```cmd
 	python -m venv venv
-	source venv/bin/activate  # On Windows use `venv\Scripts\activate```
+	venv\Scripts\activate
 	```
 3. **Install dependencies:**
-	```bash
+	```cmd
 	pip install -r requirements.txt  
 	pip install fastapi-cli # This is required to use fastapi command locally
 	```
@@ -41,4 +41,4 @@ This is a FastAPI project designed to be lightweight using FastAPI-Slim and read
 3. You should see your FastAPI application running.
 
 ## License
-This project is licensed under the MIT License. Feel free to adjust any parts to better fit your specific project details and structure.
+This project is licensed under the Apache2 License. Feel free to adjust any parts to better fit your specific project details and structure.
