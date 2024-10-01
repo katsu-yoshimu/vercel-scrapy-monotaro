@@ -30,7 +30,7 @@ Vercel上で動作する Monotaro の商品詳細ページをスクレーピン�
 	```
 3. **ローカルPCに必要なPythonパッケージをインストール:**
 	```cmd
-        cd vercel-scrapy-monotaro
+	cd vercel-scrapy-monotaro
 	pip install -r requirements.txt  
 	pip install fastapi-cli
 	```
