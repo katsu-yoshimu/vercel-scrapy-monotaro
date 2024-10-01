@@ -20,7 +20,6 @@ Vercel上で動作する Monotaro の商品詳細ページをスクレーピン�
 
    ```cmd
    git clone https://github.com/katsu-yoshimu/vercel-scrapy-monotaro.git
-   cd vercel-scrapy-monotaro
    ```
 
 2. **ローカルPCに仮想完了作成と仮想環境アクティベート:**
@@ -31,6 +30,7 @@ Vercel上で動作する Monotaro の商品詳細ページをスクレーピン�
 	```
 3. **ローカルPCに必要なPythonパッケージをインストール:**
 	```cmd
+        cd vercel-scrapy-monotaro
 	pip install -r requirements.txt  
 	pip install fastapi-cli
 	```
