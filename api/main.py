@@ -2,18 +2,9 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/", response_class=HTMLResponse)
+@app.get("/")
 async def Root():
-  return """
-<html><head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title></title>
-  <meta charset="utf-8" />
-</head>
-<body onload="window.location.href ='docs';">
-</body>
-<html>
-"""
+  return {"message": "このページはmonotaroの商品詳細ページをスクレーピングするAPIです。"}
 
 @app.get("/api/ScrapyMonotaro")
 async def ScrapyMonotaro(target_url: str = None):
