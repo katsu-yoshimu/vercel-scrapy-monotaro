@@ -1,9 +1,6 @@
 from fastapi import FastAPI
 
-
 app = FastAPI()
-
-
 
 @app.get("/api/ScrapyMonotaro")
 async def ScrapyMonotaro(target_url: str = None):
@@ -39,7 +36,7 @@ async def ScrapyMonotaro(target_url: str = None):
   
   except Exception as e:
     # 例外発生時に例外情報返却
-    response = {'status': 500, 'data' : {'type' : type(e), 'e.args' : e.args, 'e' : e}}
+    response = {'status': 500, 'data' : {'error.type' : type(e), 'error.args' : e.args, 'error.message' : e}}
     print(response)
     return response
   
