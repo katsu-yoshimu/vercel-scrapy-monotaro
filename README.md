@@ -38,12 +38,16 @@ Vercel上で動作する Monotaro の商品詳細ページをスクレーピン�
    
 ## Running Locally
 1. **WebAPIサーバ起動:**
-```fastapi dev api/main.py```
+	```cmd
+        fastapi dev api/main.py
+        ```
 
-2. **ブラウザで以下のURLでアクセス:**
-```http://127.0.0.1:8000/docs```
+3. **ブラウザで以下のURLでアクセス:**
+	```
+        http://127.0.0.1:8000/docs
+        ```
 
-3. このページからWebAPIの実行できる
+4. このページからWebAPIの実行できる
 
 ## License
 ライセンスは Apache2 License に準拠します。
