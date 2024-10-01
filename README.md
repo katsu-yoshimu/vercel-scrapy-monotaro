@@ -43,7 +43,7 @@ Vercel上で動作します。上のボタンを押すとVercel＆Githubを新�
 2. **ブラウザで以下のURLでアクセス:**
 ```http://127.0.0.1:8000/docs```
 
-3. WebAPIのドキュメント＆実行ができます
+3. このページからWebAPIの実行できる
 
 ## License
 ライセンスは Apache2 License に準拠します。
