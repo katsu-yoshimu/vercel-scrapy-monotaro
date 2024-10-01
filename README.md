@@ -19,7 +19,7 @@ Vercel上で動作します。上のボタンを押すとVercel＆Githubを新�
 1. **ローカルPCにリポジトリのクーロン作成:**
 
    ```cmd
-   git clone https://github.com/katsu-yoshimu/vercel-fastapi.git
+   git clone https://github.com/katsu-yoshimu/vercel-scrapy-monotaro.git
    cd vercel-fastapi
    ```
 
