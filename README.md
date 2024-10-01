@@ -12,14 +12,14 @@ Monotaroの商品詳細ページをスクレーピングするためのWebAPIで
 
 ## Installation
 
-前提：ローカルPCに**git**、**ptyhon3.xx**がインストール済
+**前提：ローカルPCに git、ptyhon3.12 がインストール済**
 
 1. **ローカルPCにリポジトリのクーロン作成:**
 
    ```cmd
    git clone https://github.com/katsu-yoshimu/vercel-fastapi.git
    cd vercel-fastapi
-	 ```
+   ```
 
 2. **ローカルPCに仮想完了作成と仮想環境アクティベート:**
 
@@ -30,9 +30,10 @@ Monotaroの商品詳細ページをスクレーピングするためのWebAPIで
 3. **ローカルPCに必要なPythonパッケージをインストール:**
 	```cmd
 	pip install -r requirements.txt  
-	pip install fastapi-cli # ローカルPCで動作させたい場合のみ必要
+	pip install fastapi-cli
 	```
-
+   fastapi-cli はローカルPCで動作させたい場合のみ必要
+   
 ## Running Locally
 1. **WebAPIサーバ起動:**
 ```fastapi dev api/main.py```
