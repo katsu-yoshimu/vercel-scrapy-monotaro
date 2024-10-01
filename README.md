@@ -39,11 +39,11 @@ Vercel上で動作する Monotaro の商品詳細ページをスクレーピン�
 ## Running Locally
 1. **WebAPIサーバ起動:**
 	```cmd
-        fastapi dev api/main.py
+	fastapi dev api/main.py
 	```
 2. **ブラウザで以下のURLでアクセス:**
-	```
-        http://127.0.0.1:8000/docs
+	```cmd
+	http://127.0.0.1:8000/docs
 	```
 3. このページからWebAPIの実行できる
 
