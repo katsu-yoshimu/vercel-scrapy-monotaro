@@ -1,8 +1,10 @@
 # Vercel Scrapy Monotaro Project
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkatsu-yoshimu%2Fvercel-scrapy-monotaro)
 
-Monotaroの商品詳細ページをスクレーピングするためのWebAPIです。Vercel上で動作します。上のボタンを押すとVercel＆Githubを新規作成できます。
-ローカルPCで動作させたい場合は[Running Locally](#running-locally)を参照ください。
+Monotaroの商品詳細ページをスクレーピングするためのWebAPIです。
+Vercel上で動作します。上のボタンを押すとVercel＆Githubを新規作成できます。
+
+なお、ローカルPCでも動作させたい場合は[Running Locally](#running-locally)を参照ください。
 
 ## 目次
 - [Installation](#installation)
