@@ -20,7 +20,7 @@ Vercel上で動作する Monotaro の商品詳細ページをスクレーピン�
 
    ```cmd
    git clone https://github.com/katsu-yoshimu/vercel-scrapy-monotaro.git
-   cd vercel-fastapi
+   cd vercel-scrapy-monotaro
    ```
 
 2. **ローカルPCに仮想完了作成と仮想環境アクティベート:**
