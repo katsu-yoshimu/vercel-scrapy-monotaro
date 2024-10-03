@@ -1,5 +1,5 @@
 # Vercel Scrapy Monotaro Project
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkatsu-yoshimu%2Fvercel-scrapy-monotaro)**現状、処理途中でエラーとなります。原因調査中です。**
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkatsu-yoshimu%2Fvercel-scrapy-monotaro)
 
 Vercel上で動作する Monotaro の商品詳細ページをスクレーピングするための WebAPI です。
 上のボタンを押すと Vercel ＆ Github を新規作成できます。
@@ -14,7 +14,7 @@ Vercel上で動作する Monotaro の商品詳細ページをスクレーピン�
 
 ## Installation
 
-**前提：ローカルPCに git、ptyhon3.12 がインストール済**
+**前提：ローカルPCに git、ptyhon3.12、 がインストール済**
 
 1. **ローカルPCにリポジトリのクーロン作成:**
 
